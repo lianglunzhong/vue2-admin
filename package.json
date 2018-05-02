@@ -11,13 +11,21 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@types/js-cookie": "^2.1.0",
+    "@types/node-sass": "^3.10.32",
+    "@types/nprogress": "0.0.29",
+    "axios": "^0.18.0",
     "element-ui": "^2.3.4",
+    "js-cookie": "^2.2.0",
+    "node-sass": "^4.8.3",
+    "nprogress": "^0.2.0",
     "sass": "^1.2.0",
     "sass-loader": "^7.0.1",
     "scss": "^0.2.4",
     "scss-loader": "0.0.1",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

@@ -72,15 +72,16 @@ export default {
       this.$refs.loginForm.validate((valid) => {
         if (valid) {
           console.log('login')
+          console.log(this.$store)
         } else {
-          console.log('error')
+          console.log('error submit!')
           return false
         }
       })
     }
   },
   computed: {
-
+    
   }
 }
 </script>
